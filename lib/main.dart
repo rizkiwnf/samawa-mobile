@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:samawa_mobile/after_login.dart';
 import 'signup_screen.dart';
 import 'login_screen.dart';
 
@@ -38,6 +39,12 @@ class HomeScreen extends StatelessWidget {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => LoginScreen()));
               },
               child: Text('Login'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => AfterLogin()));
+              },
+              child: Text('Logout'),
             ),
           ],
         ),

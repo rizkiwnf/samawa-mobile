@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
+import 'after_login.dart';
+
 class LoginScreen extends StatelessWidget {
   final GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email']);
 
@@ -17,9 +19,7 @@ class LoginScreen extends StatelessWidget {
       final User? user = userCredential.user;
 
       if (user != null) {
-        // User logged in successfully
-        // You can navigate to the next screen or do other actions
-        // For example, you can use Navigator.pushReplacement() to navigate to a new screen
+
       }
     } catch (e) {
       print('Error during login with Google: $e');

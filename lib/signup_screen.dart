@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:samawa_mobile/after_login.dart';
 
 class SignUpScreen extends StatelessWidget {
   final GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email']);
@@ -19,7 +20,7 @@ class SignUpScreen extends StatelessWidget {
       final User? user = userCredential.user;
 
       if (user != null) {
-        print(user.displayName);
+        AfterLogin();
       }
     } catch (e) {
       print('Error during sign up with Google: $e');
