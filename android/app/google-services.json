@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1006176216317",
+    "project_id": "samawa-mobile",
+    "storage_bucket": "samawa-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006176216317:android:b7f62a2da27228c7a3ca94",
+        "android_client_info": {
+          "package_name": "com.example.samawa_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006176216317-dql7i3bgp30ns9ht2qvsndfmukllglc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy1Cdp2DHFzx0j09xjd4Tfty2Ff4mUtVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006176216317-dql7i3bgp30ns9ht2qvsndfmukllglc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
